@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 100%;
+	margin: auto;
+
+}
+.header1{
+	padding: 20px;
+	text-align: center;
+	background: #070930;
+	color: #e07719;
+	font-size: 30px; 
+}
+body{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../img/fruits.jpg");
+	background-size: cover;
+	background-position: center center ;
+	background-position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	opacity: 0.9;
+	
+}
+
+.navigation{
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	/*background-color: #070930;*/
+}
+.navigation li{
+	display: inline-block;
+
+}
+
+.navigation li a{
+	display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: #e07719 ;
+	text-decoration: none;
+	/*padding: 5px 20px;*/
+	font-family: inherit;
+	font-size: 20px;
+
+}
+.navigation li a:hover{
+	background: #070930;
+	opacity: 0.7;
+/*color: #333;*/
+}
+.navigation2{
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+
+.navigation2 li{
+	display: inline-block;
+}
+
+.navigation2 li a{
+	display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: #e07719 ;
+	text-decoration: none;
+	/*padding: 5px 20px;*/
+	font-family: inherit;
+	font-size: 20px;
+
+}
+.navigation2 li a:hover{
+	background: #070930;
+	opacity: 0.7;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+}
+
+.menu {
+  font-family: inherit;
+  font-size: 14px;
+
+}
+
+.menu_group_heading {
+  margin: 0;
+  color:#e07719  ;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #070930;
+}
+
+.menu_group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+.menu_item {
+  display: flex;
+}
+
+.menu_item_image {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+  border-radius: 20%;
+}
+
+.menu_item_text {
+  flex-grow: 1;
+  color: #e07719;
+}
+
+.menu_item_heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  font-family: inherit;
+}
+
+.menu_item_name {
+  margin-right: 1.5em;
+}
+
+.menu_item_description {
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 992px) {
+  .menu {
+    font-size: 16px;
+  }
+
+  .menu-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-item-image {
+    width: 125px;
+    height: 125px;
+  }
+}

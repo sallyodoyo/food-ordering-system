@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*font-family: inherit;*/
+}
+.wrapper{
+	width: 100%;
+	margin: auto;
+}
+.header1 {
+	padding: 20px;
+	text-align: center;
+	background: #070930;
+	color: #e07719;
+	font-size: 30px;
+	 
+}
+/**/
+.navigation{
+	float: initial;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-style: inherit;
+	/*background-color: #070930;*/
+}
+.navigation li{
+	display: inline-block;
+
+}
+
+.navigation li a{
+	display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: #e07719 ;
+	text-decoration: none;
+	
+	font-family: inherit;
+	font-size: 15px;
+
+}
+.navigation li a:hover{
+	background: #070930;
+	opacity: 0.7;
+/*color: #333;*/
+}
+.hero{
+	height: 100%;
+	width: 100%;
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../img/berries.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.form-box{
+	width: 380px;
+	height: 480px;
+	position: relative ;
+	margin: 6% auto ;
+	background:#fff;
+	opacity: 0.7;
+	padding: 5px;
+	overflow: hidden;
+}
+.button-box{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #efbb8c ;
+	border-radius: 30px ;
+
+}
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right, #e07719 , #e07719);
+	border-radius: 30px ;
+	transition:0.5s ;
+}
+.social-icons a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,165,47,0.76);
+	margin:0px 24px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 40%;
+	color: #7f7f7f3d;
+	transition: all 0.5s ease;
+	box-shadow:  ;
+	cursor: pointer;
+
+}
+.social-icons a:hover{
+    background: blue ;
+	opacity: 0.5;
+}
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: 0.5s;
+}
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	border-top: none;
+	outline: none;
+	background: transparent;
+}
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right,  #e07719 , #e07719);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+
+}
+.submit-btn:hover{
+ 	background: blue ;
+	opacity: 0.5;
+}
+.check-box{
+	margin: 20px 10px 16px 0;
+
+}
+span{
+	color: #777;
+	font-size: 12px;
+	bottom: 92px;
+	position: absolute ;
+
+}
+
+
+.otherusers li{
+	display: inline-block;
+    list-style-type: none;
+    font-size: 12px; 
+    padding: 14px 30px;
+
+
+}
+.otherusers li a{
+	text-align: center;
+  	color: #e07719 ;
+	text-decoration: none;
+	font-family: inherit;
+	font-size: 12px;
+
+}
+.otherusers li a:hover{
+	color: #070930 ;
+	opacity: 0.9;
+}
+
+
+#login{
+	left: 50px;
+}
+#signup{
+	left: 450px;
+}
+

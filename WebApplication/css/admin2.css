@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+.header1{
+    padding: 20px;
+    text-align: center;
+    background: #070930;
+    color: #e07719;
+    font-size: 30px; 
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../img/fruitsveggies2.png");
+    background-size: cover;
+    background-position: center center ;
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.navigation{
+    float: centre;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #070930;*/
+}
+.navigation li{
+    display: inline-block;
+
+}
+
+.navigation li a{
+    display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: #e07719 ;
+    text-decoration: none;
+    /*padding: 5px 20px;*/
+    font-family: inherit;
+    font-size: 20px;
+
+}
+.navigation li a:hover{
+    background: #070930;
+    opacity: 0.7;
+/*color: #333;*/
+}
+.navigation2{
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.navigation2 li{
+    display: inline-block;
+}
+
+.navigation2 li a{
+    display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: #e07719 ;
+    text-decoration: none;
+    /*padding: 5px 20px;*/
+    font-family: inherit;
+    font-size: 20px;
+
+}
+.navigation2 li a:hover{
+    background: #070930;
+    opacity: 0.7;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+    margin-left: 200px;
+}
+table td, table th{
+    border: 1px solid;
+    padding: 8px;
+}
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#221d1773 ;
+    opacity: 0.7;
+}
+table td{
+    background-color:#070930; ;
+    opacity: 0.7;
+    color: #e07719;
+    border-color: black;
+}
+table tr:hover {
+   background: #070930;
+    opacity: 0.7;
+}
+h2{
+    text-align: centre;
+    margin-left: 500px;
+    color: #070930;
+    position: relative;
+}
+.edit_btn{
+    color: green;
+
+}
+
+.del_btn{
+    color: red;
+}
+
+
+
+form {
+    width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #070930; 
+    border-radius: 5px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+    color: #070930;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.input-group h2{
+    text-align: left;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: #e07719;
+    background: #070930;
+    border: none;
+    border-radius: 5px;
+}
+
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}

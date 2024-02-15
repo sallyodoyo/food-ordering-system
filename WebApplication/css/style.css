@@ -1,0 +1,35 @@
+h1{
+	color: red;
+}
+h2{
+	color: green;
+}
+p{
+	color: green;
+}
+li{
+	list-style-type: none;
+}
+p,h2{
+	font-family: monospace;
+	color: purple;
+}
+.one{
+	border: solid;
+	background-color: orange;
+}
+h1.one{
+	color: blue;
+}
+h1+p{
+	border: solid;
+	background-color: lightgreen;
+}
+p span{
+	font-family: x-large;
+}
+body h1+ p .special{
+	color: yellow;
+	background-color: black;
+	padding: 5px;
+}

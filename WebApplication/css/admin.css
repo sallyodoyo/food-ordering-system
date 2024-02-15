@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 100%;
+	margin: auto;
+}
+.header1{
+	padding: 20px;
+	text-align: center;
+	background: #070930;
+	color: #e07719;
+	font-size: 30px; 
+}
+body{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../img/fruitsveggies2.png");
+	background-size: cover;
+	background-position: center center ;
+	background-position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+.navigation{
+	float: centre;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	/*background-color: #070930;*/
+}
+.navigation li{
+	display: inline-block;
+
+}
+
+.navigation li a{
+	display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: #e07719 ;
+	text-decoration: none;
+	/*padding: 5px 20px;*/
+	font-family: inherit;
+	font-size: 20px;
+
+}
+.navigation li a:hover{
+	background: #070930;
+	opacity: 0.7;
+/*color: #333;*/
+}
+.navigation2{
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+
+.navigation2 li{
+	display: inline-block;
+}
+
+.navigation2 li a{
+	display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: #e07719 ;
+	text-decoration: none;
+	/*padding: 5px 20px;*/
+	font-family: inherit;
+	font-size: 20px;
+
+}
+.navigation2 li a:hover{
+	background: #070930;
+	opacity: 0.7;
+}
+table{
+	width: 70%;
+	border-collapse: collapse;
+	margin-left: 200px;
+}
+table td, table th{
+	border: 1px solid;
+	padding: 8px;
+}
+table th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color:#e07719 ;
+	opacity: 0.7;
+}
+table td{
+	background-color:#070930; ;
+	opacity: 0.7;
+	color: #e07719;
+	border-color: black;
+}
+h2{
+	text-align: centre;
+	margin-left: 500px;
+	color: #070930;
+	position: relative;
+}

@@ -1,0 +1,46 @@
+a:visited{
+	background-color: lightgrey;
+}
+a:hover{
+	color: yellow;
+	font-size: 50px;
+}
+a:link{
+	color: blue;
+}
+a[]{
+	color: green;
+	background-color: yellow;
+}
+a[href="home.html"]{
+	background-color: red;
+}
+p::first-line{
+	color: limegreen;
+	font-size: large;
+}
+article > p{
+	color: blueviolet;
+} 
+p{
+	border: solid;
+	padding: 50px;
+	margin-top: 30px;
+}
+
+.notebox{
+	border: 4px solid #666;
+	padding: .5em;
+	font-size: xx-large;
+
+}
+.notebox.warning{
+	border: 4px solid orange;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+.notebox.danger{
+	border: 4px solid red;	
+	font-weight: bold;
+}

@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 100%;
+	margin: auto;
+	
+}
+.header1{
+	padding: 20px;
+	text-align: center;
+	background: #070930;
+	color: #e07719;
+	font-size: 30px; 
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../img/fruitsveggies2.png");
+	background-size: cover;
+	background-position: center;
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+form {
+    width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #070930; 
+    border-radius: 5px;
+}
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+    color: #070930;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.input-group select {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+.input-group h2{
+    text-align: left;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: #e07719;
+    background: #070930;
+    border: none;
+    border-radius: 5px;
+}
+
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}

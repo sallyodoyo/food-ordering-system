@@ -1,0 +1,35 @@
+.a{
+	font-family: monospace;
+}
+.b{
+	color: red;
+}
+.ab{
+	background-color: yellow ;
+}
+
+.wrapper{
+	font-size: 16px;
+}
+
+.px{
+	width: 200px;
+	font-size: 2ex;
+	margin-bottom: 10px;
+}
+
+.vw{
+	width: 10vw;
+	font-size: 3em;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.em{
+	width: 10em;
+}
+
+div{
+	border: solid;
+
+}
